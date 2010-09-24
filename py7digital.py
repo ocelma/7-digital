@@ -21,8 +21,8 @@ __status__ = 'Beta'
 
 API_VERSION = '1.2'
 HOST_NAME = 'api.7digital.com/' + API_VERSION
-OAUTHKEY = '7dmwnc7ctu' #TODO Put your oauth key here
-COUNTRY = ''            # ISO Country
+OAUTHKEY = '' #TODO Put your oauth key here
+COUNTRY = ''  # ISO Country
 
 __cache_dir = './cache' # Set cache directory
 __cache_enabled = False  # Enable cache? if set to True, make sure that __cache_dir exists! (e.g. $ mkdir ./cache)
@@ -908,4 +908,3 @@ def get_md5(text):
     hash = md5()
     hash.update(text.encode('utf8'))
     return hash.hexdigest()
-
