@@ -1,10 +1,3 @@
-7 digital API access via python
-
-If you want to use the cache, you have to manually create that dir (e.g. $ mkdir ./cache)
-
-
-- Examples: 
-
 import py7digital
 
 #Search artist

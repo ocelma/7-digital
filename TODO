@@ -1,0 +1,44 @@
+- Catalogue API
+
+    + means DONE
+    - means TODO
+
+    o Artist methods
+        + artist/browse
+        - artist/chart
+        + artist/details
+        + artist/releases
+        + artist/search
+        + artist/toptracks
+    o Release methods
+        + release/bydate
+        + release/chart
+        + release/details
+        + release/recommend
+        + release/search
+        + release/tracks
+    o Track methods
+        - track/chart
+        + track/details
+        + track/preview
+        + track/search
+    o Tag methods
+        + tag
+        + artist/tags
+        - artist/bytag/top
+        + release/tags
+        - release/bytag/new
+        - release/bytag/top
+
+- RELEASE attributes to add:
+
+price
+	price object	pricing information
+
+formats
+	list of format objects	list of formats the tracks appearing on this release are available in
+
+- TRACK attributes to add:
+
+price
+	price object	pricing information
