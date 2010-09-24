@@ -21,7 +21,7 @@ __status__ = 'Beta'
 
 API_VERSION = '1.2'
 HOST_NAME = 'api.7digital.com/' + API_VERSION
-OAUTHKEY = '7dmwnc7ctu' #TODO Put your oauth key here
+OAUTHKEY = '' #TODO Put your oauth key here
 COUNTRY = ''            # ISO Country
 
 __cache_dir = './cache' # Set cache directory
