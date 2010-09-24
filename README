@@ -1,10 +1,21 @@
 7 digital API access via python
 
-If you want to use the cache, you have to manually create that dir (e.g. $ mkdir ./cache)
+http://developer.7digital.net/
 
 
-- Examples: 
+Using the 7digital developer platform you can:
 
+    * Build digital music applications for the web, desktop and mobile devices
+    * Generate revenue with your own branded music download store
+    * Access our catalogue of over 10,000,000 MP3 music tracks
+    * Create your own streaming radio service
+    * Include official sleeve artwork and audio samples
+    * Have access to major labels licensed content in 16 major territories included US, Canada, UK, Germany, France, Spain, Italy and many more
+
+
+- Examples:
+ 
+# If you want to use the cache, you have to manually create that dir (e.g. $ mkdir ./cache)
 import py7digital
 
 #Search artist
