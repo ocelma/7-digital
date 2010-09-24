@@ -22,7 +22,7 @@ __status__ = 'Beta'
 API_VERSION = '1.2'
 HOST_NAME = 'api.7digital.com/' + API_VERSION
 OAUTHKEY = '' #TODO Put your oauth key here
-COUNTRY = ''            # ISO Country
+COUNTRY = ''  # ISO Country
 
 __cache_dir = './cache' # Set cache directory
 __cache_enabled = False  # Enable cache? if set to True, make sure that __cache_dir exists! (e.g. $ mkdir ./cache)
