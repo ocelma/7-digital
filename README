@@ -1,9 +1,5 @@
-7 digital API access via python
-
-If you want to use the cache, you have to manually create that dir (e.g. $ mkdir ./cache)
-
-
-- Examples: 
+# You have to edit py7digital.py
+# OAUTHKEY = '' #TODO Put your oauth key here
 
 import py7digital
 
