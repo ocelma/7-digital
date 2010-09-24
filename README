@@ -1,7 +1,5 @@
 7 digital API access via python | http://developer.7digital.net/
 
-Download python code: http://github.com/ocelma/7-digital/downloads
-
 Using the 7digital developer platform you can:
     * Build digital music applications for the web, desktop and mobile devices
     * Generate revenue with your own branded music download store
@@ -12,4 +10,4 @@ Using the 7digital developer platform you can:
 
 See some usage examples here: http://github.com/ocelma/7-digital/tree/v1.0
 
-DOWNLOAD CODE (v1.0): http://github.com/ocelma/7-digital/downloads
+DOWNLOAD (v1.0): http://github.com/ocelma/7-digital/downloads
