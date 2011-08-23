@@ -177,7 +177,8 @@ class Artist(_BaseObject):
     def set_image(self, image) :
         self._image = image
 
-    def get_url(self):
+    def 
+    (self):
         """ Returns the url of an artist """
         if self._url is None :
             if not self._xml : self._xml = self._request(self._method + 'details', True, {'artistid': self.id})
@@ -313,7 +314,7 @@ class Album(_BaseObject):
         """ Returns the url of the album """
         if self._url is None :
             if not self._xml : self._xml = self._request(self._method + 'details', True, {'releaseid': self.id})
-            self._url = _extract(self._xml, 'url')
+            self._url = _extract(self._xml, 'url', index=1)
         return self._url
 
     def set_url(self, url) :
