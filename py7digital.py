@@ -313,7 +313,7 @@ class Album(_BaseObject):
         """ Returns the url of the album """
         if self._url is None :
             if not self._xml : self._xml = self._request(self._method + 'details', True, {'releaseid': self.id})
-            self._url = _extract(self._xml, 'url')
+            self._url = _extract(self._xml, 'url', index=1)
         return self._url
 
     def set_url(self, url) :
